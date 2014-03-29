@@ -18,9 +18,8 @@
 			echo '<h2 class="form-signin-heading">Create an account</h2>';
 			$this->form_builder->text('first_name','First name', set_value('first_name'),'form-control','First name');
 			$this->form_builder->text('last_name','Last name', set_value('last_name'),'form-control','Last name');
-			$this->form_builder->text('user_name','Username', set_value('user_name'),'form-control','Username');
+			$this->form_builder->text('username','Username', set_value('user_name'),'form-control','Username');
 			$this->form_builder->text('email_address','Email', set_value('email_address'),'form-control','Email');
-			$this->form_builder->text('username','Username', '','form-control','Username');
 			$this->form_builder->password('password','Password', '','form-control','Password');
 			$this->form_builder->password('password2','Password confirm', '','form-control','Password confirm');
 			

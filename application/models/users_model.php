@@ -59,7 +59,7 @@ class Users_model extends CI_Model {
 			$new_member_insert_data = array(
 				'first_name' => $this->input->post('first_name'),
 				'last_name' => $this->input->post('last_name'),
-				'email_addres' => $this->input->post('email_address'),			
+				'email_address' => $this->input->post('email_address'),			
 				'user_name' => $this->input->post('username'),
 				'pass_word' => md5($this->input->post('password'))						
 			);
